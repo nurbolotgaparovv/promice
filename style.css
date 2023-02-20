@@ -1,0 +1,52 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#modal{
+    transition: 3s;
+}
+.text-input{
+    margin: 50px 0 30px 0;
+    width: 30%;
+
+}
+body{
+    background: teal;
+}
+img{
+    width: 180px;
+}
+.divCountry:hover {
+    background: none;
+    transition:1s;
+}
+.btn{
+    margin: 50px 0 0 50px;
+}
+.divCountry{
+    border:  solid silver;
+    background: antiquewhite;
+    padding: 5% 5%;
+    margin: 10px 10px;
+    border-radius: 10%;
+}
+h1{
+    font-size: 20px;
+}
+.room{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+span span{
+    font-family: "Arial Black", sans-serif;
+}
+
+#modal{
+    transform: scale(0);
+}
+
+
